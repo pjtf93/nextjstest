@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+
 import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
@@ -48,38 +50,38 @@ export default function App() {
   return (
     <div className='App'>
       <div className='full'>
-        <a className='text' href='/Test'>
-          Hello
-        </a>
+        <Link href='/test'>
+          <a className='text'>Hello</a>
+        </Link>
       </div>
 
       <div className='container'>
-        <div className='text'>Hello</div>
+        <div className='text'>Hello1</div>
         <div className='box'>
           <img src='/pexels.jpeg' alt='' />
         </div>
       </div>
       <div className='container'>
-        <div className='text'>Hello</div>
+        <div className='text'>Hello2</div>
         <div className='box'>
           <img src='/pexels.jpeg' alt='' />
         </div>
       </div>
       <div className='container'>
-        <div className='text'>Hello</div>
+        <div className='text'>Hello3</div>
         <div className='box'>
           <img src='/pexels.jpeg' alt='' />
         </div>
       </div>
       <div className='container'>
-        <div className='text'>Hello</div>
+        <div className='text'>Hello4</div>
         <div className='box'>
           <img src='/pexels.jpeg' alt='' />
         </div>
       </div>
 
       <div className='full'>
-        <div className='text'>Hello</div>
+        <div className='text'>Hello5</div>
       </div>
     </div>
   );
