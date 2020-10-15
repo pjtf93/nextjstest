@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.text {
+  width: 40%;
+}
+
+.box {
+  width: 40%;
+}
+
+img {
+  height: 100vh;
+}
+
+.full {
+  height: 100vh;
+}
